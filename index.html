@@ -10,23 +10,59 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/mustache-0.7.2.js"></script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/underscore-1.5.2.min.js"></script>
         <script src="js/vendor/backbone-1.0.0.min.js"></script>
+
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <header>
+        <img class="podioLogo" src="http://placehold.it/80x30&text=Podio" alt="Podio">
+        <ul>
+            <li>
+                <a href="javascript: void(0);">Home</a>
+                <span class="current"></span>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+            </li>
+            <li class="menu">
+                <a href="javascript: void(0);">Go to space <span class="arrow"><span></span></span></a>
+                <div>
+                    <span class="tab"></span>
+                    <input type="text">
+                </div>
+            </li>
+            <li>
+                <a href="javascript: void(0);">App Store</a>
+            </li>
+        </ul>
+    </header>
+
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et imperdiet turpis. Cras ornare, odio feugiat vulputate lobortis,
+            erat velit varius tortor, eu dictum arcu massa nec leo. Donec at vestibulum magna. Ut in leo in odio ultricies gravida id sit amet
+            enim. Phasellus varius urna bibendum est molestie ultricies ut nec augue. Vivamus rhoncus mattis turpis eget vestibulum.
+            Integer dictum risus orci, vitae cursus lacus mattis ut. Etiam a felis a arcu suscipit varius nec et nulla.</p>
+
+        <p>Quisque rutrum turpis ac nibh pharetra, in tempor dui mattis. Quisque sit amet sapien est. Maecenas at nisi vitae leo accumsan
+            venenatis vel vel enim. Pellentesque consequat mauris eget massa placerat, a fringilla nunc tristique. Cras magna risus,
+            hendrerit ac ligula a, tempor lobortis ante. Duis non elit non quam adipiscing aliquam. Maecenas posuere facilisis libero vel
+            malesuada. Duis sit amet fermentum turpis. Fusce sodales neque ac augue luctus, et bibendum sapien dapibus. Praesent placerat
+            ipsum turpis, in suscipit est egestas non. Vivamus imperdiet mattis purus sed tempus. Mauris a neque lectus. Sed a lorem tortor.
+            Suspendisse eget ipsum sem. Phasellus vehicula aliquet lacus.</p>
+
+        <p>Sed commodo enim a tortor egestas, quis tincidunt orci mollis. Nulla ac neque ligula. Etiam ipsum leo, laoreet a elit in,
+            rutrum lacinia magna. Suspendisse potenti. Nunc ullamcorper arcu sed ullamcorper dapibus. Quisque ut enim nunc. Fusce
+            cursus dui nec velit fringilla volutpat. Donec in nibh ut ipsum egestas dignissim. Quisque posuere et mi in elementum.
+            Nunc dui quam, lacinia sit amet nulla et, pharetra porttitor ligula. Vivamus et tincidunt justo, sit amet porttitor magna.
+            Nunc imperdiet magna sed fermentum iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Integer commodo neque sit amet sem porttitor dignissim.</p>
+    </section>
+
         <script src="js/main.js"></script>
 
     </body>
